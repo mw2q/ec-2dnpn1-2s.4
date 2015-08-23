@@ -1,0 +1,236 @@
+1:139674443999040:2015-08-21 22:52:49.399 EDT -LOG:  Starting GTM server at (*:6666) -- control file /home/mark/stuff/dbt3/pgdata/gtm/gtm.control
+LOCATION:  main, main.c:626
+1:139674443999040:2015-08-21 22:52:49.399 EDT -LOG:  Restoring last GXID to 10000
+	
+LOCATION:  GTM_RestoreTxnInfo, gtm_txn.c:2744
+1:139674443999040:2015-08-21 22:52:49.399 EDT -LOG:  Started to run as GTM-Active.
+LOCATION:  main, main.c:700
+1:139674341336832:2015-08-21 22:52:49.745 EDT -LOG:  Node with the given ID number already exists - one 0:1
+LOCATION:  pgxcnode_add_info, register_common.c:257
+1:139674341336832:2015-08-21 22:52:49.745 EDT -ERROR:  Failed to Register node
+LOCATION:  ProcessPGXCNodeRegister, register_gtm.c:170
+1:139674316158720:2015-08-21 22:52:49.924 EDT -LOG:  Node with the given ID number already exists - one 0:1
+LOCATION:  pgxcnode_add_info, register_common.c:257
+1:139674316158720:2015-08-21 22:52:49.924 EDT -ERROR:  Failed to Register node
+LOCATION:  ProcessPGXCNodeRegister, register_gtm.c:170
+1:139673745749760:2015-08-21 22:52:50.095 EDT -LOG:  Node with the given ID number already exists - one 0:1
+LOCATION:  pgxcnode_add_info, register_common.c:257
+1:139673745749760:2015-08-21 22:52:50.095 EDT -ERROR:  Failed to Register node
+LOCATION:  ProcessPGXCNodeRegister, register_gtm.c:170
+1:139673720571648:2015-08-21 22:52:50.266 EDT -LOG:  Node with the given ID number already exists - one 0:1
+LOCATION:  pgxcnode_add_info, register_common.c:257
+1:139673720571648:2015-08-21 22:52:50.266 EDT -ERROR:  Failed to Register node
+LOCATION:  ProcessPGXCNodeRegister, register_gtm.c:170
+1:139673695393536:2015-08-21 22:52:50.436 EDT -LOG:  Node with the given ID number already exists - one 0:1
+LOCATION:  pgxcnode_add_info, register_common.c:257
+1:139673695393536:2015-08-21 22:52:50.436 EDT -ERROR:  Failed to Register node
+LOCATION:  ProcessPGXCNodeRegister, register_gtm.c:170
+1:139673200486144:2015-08-21 22:52:50.613 EDT -LOG:  Node with the given ID number already exists - one 0:1
+LOCATION:  pgxcnode_add_info, register_common.c:257
+1:139673200486144:2015-08-21 22:52:50.613 EDT -ERROR:  Failed to Register node
+LOCATION:  ProcessPGXCNodeRegister, register_gtm.c:170
+1:139673175308032:2015-08-21 22:52:50.782 EDT -LOG:  Node with the given ID number already exists - one 0:1
+LOCATION:  pgxcnode_add_info, register_common.c:257
+1:139673175308032:2015-08-21 22:52:50.782 EDT -ERROR:  Failed to Register node
+LOCATION:  ProcessPGXCNodeRegister, register_gtm.c:170
+1:139673066268416:2015-08-21 22:53:00.457 EDT -LOG:  Saving transaction info - next_gxid: 10001
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:139673066268416:2015-08-21 22:53:00.460 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 12005
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:139673066268416:2015-08-21 22:53:03.015 EDT -LOG:  Saving transaction info - next_gxid: 10245
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:139673066268416:2015-08-21 22:53:03.017 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 12249
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:139673066268416:2015-08-21 22:53:03.034 EDT -LOG:  Saving transaction info - next_gxid: 10247
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:139673066268416:2015-08-21 22:57:11.117 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139673066268416:2015-08-21 22:57:11.117 EDT -LOG:  Sending transaction id 10487
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139671656949504:2015-08-21 22:57:12.918 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139671656949504:2015-08-21 22:57:12.918 EDT -LOG:  Sending transaction id 10490
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673024304896:2015-08-21 22:58:33.843 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:139671841523456:2015-08-21 22:59:42.276 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139671841523456:2015-08-21 22:59:42.276 EDT -LOG:  Sending transaction id 10578
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673024304896:2015-08-21 23:00:41.502 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139673024304896:2015-08-21 23:00:41.502 EDT -LOG:  Sending transaction id 10610
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673041090304:2015-08-21 23:01:01.223 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139673041090304:2015-08-21 23:01:01.223 EDT -LOG:  Sending transaction id 10617
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139671841523456:2015-08-21 23:01:31.388 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139671841523456:2015-08-21 23:01:31.388 EDT -LOG:  Sending transaction id 10641
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673032697600:2015-08-21 23:01:37.716 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139673032697600:2015-08-21 23:01:37.716 EDT -LOG:  Sending transaction id 10644
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673057875712:2015-08-21 23:02:33.479 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139673057875712:2015-08-21 23:02:33.479 EDT -LOG:  Sending transaction id 10665
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139672311252736:2015-08-21 23:03:33.176 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139672311252736:2015-08-21 23:03:33.176 EDT -LOG:  Sending transaction id 10687
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139672521004800:2015-08-21 23:04:35.020 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139672521004800:2015-08-21 23:04:35.020 EDT -LOG:  Sending transaction id 10711
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139672521004800:2015-08-21 23:05:35.527 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139672521004800:2015-08-21 23:05:35.527 EDT -LOG:  Sending transaction id 10744
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139671724091136:2015-08-21 23:06:17.254 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139671724091136:2015-08-21 23:06:17.255 EDT -LOG:  Sending transaction id 10781
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139672277681920:2015-08-21 23:06:31.215 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139672277681920:2015-08-21 23:06:31.215 EDT -LOG:  Sending transaction id 10791
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139671682127616:2015-08-21 23:07:31.237 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139671682127616:2015-08-21 23:07:31.237 EDT -LOG:  Sending transaction id 10818
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673049483008:2015-08-21 23:08:31.572 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139673049483008:2015-08-21 23:08:31.572 EDT -LOG:  Sending transaction id 10847
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673049483008:2015-08-21 23:09:31.722 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139673049483008:2015-08-21 23:09:31.722 EDT -LOG:  Sending transaction id 10877
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673066268416:2015-08-21 23:10:31.402 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139673066268416:2015-08-21 23:10:31.402 EDT -LOG:  Sending transaction id 10894
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139671732483840:2015-08-21 23:11:11.889 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139671732483840:2015-08-21 23:11:11.889 EDT -LOG:  Sending transaction id 10916
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139671732483840:2015-08-21 23:11:31.287 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139671732483840:2015-08-21 23:11:31.287 EDT -LOG:  Sending transaction id 10922
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139672386787072:2015-08-21 23:11:43.091 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139672386787072:2015-08-21 23:11:43.091 EDT -LOG:  Sending transaction id 10932
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673066268416:2015-08-21 23:12:31.251 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139673066268416:2015-08-21 23:12:31.251 EDT -LOG:  Sending transaction id 10951
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673066268416:2015-08-21 23:13:31.279 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139673066268416:2015-08-21 23:13:31.279 EDT -LOG:  Sending transaction id 10969
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673057875712:2015-08-21 23:14:31.308 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139673057875712:2015-08-21 23:14:31.308 EDT -LOG:  Sending transaction id 10986
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673041090304:2015-08-21 23:15:31.359 EDT -LOG:  Saving transaction info - next_gxid: 11002
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:139671732483840:2015-08-21 23:15:31.446 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139671732483840:2015-08-21 23:15:31.446 EDT -LOG:  Sending transaction id 11003
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139671732483840:2015-08-21 23:16:31.378 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139671732483840:2015-08-21 23:16:31.378 EDT -LOG:  Sending transaction id 11022
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673057875712:2015-08-21 23:17:31.632 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139673057875712:2015-08-21 23:17:31.632 EDT -LOG:  Sending transaction id 11039
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673066268416:2015-08-21 23:18:31.592 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139673066268416:2015-08-21 23:18:31.592 EDT -LOG:  Sending transaction id 11056
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673049483008:2015-08-21 23:19:31.488 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139673049483008:2015-08-21 23:19:31.488 EDT -LOG:  Sending transaction id 11073
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673049483008:2015-08-21 23:20:31.607 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139673049483008:2015-08-21 23:20:31.607 EDT -LOG:  Sending transaction id 11090
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673032697600:2015-08-21 23:21:31.644 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139673032697600:2015-08-21 23:21:31.644 EDT -LOG:  Sending transaction id 11107
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673032697600:2015-08-21 23:22:31.685 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139673032697600:2015-08-21 23:22:31.685 EDT -LOG:  Sending transaction id 11124
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139672302860032:2015-08-21 23:23:31.823 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139672302860032:2015-08-21 23:23:31.823 EDT -LOG:  Sending transaction id 11147
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139672529397504:2015-08-21 23:24:31.636 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139672529397504:2015-08-21 23:24:31.636 EDT -LOG:  Sending transaction id 11188
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139673066268416:2015-08-21 23:36:06.201 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:139673066268416:2015-08-21 23:36:06.201 EDT -LOG:  Sending transaction id 11415
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:139674427279104:2015-08-21 23:36:27.288 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:139674349729536:2015-08-21 23:36:27.288 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:139674341336832:2015-08-21 23:36:28.467 EDT -ERROR:  Failed to Unregister node
+LOCATION:  ProcessPGXCNodeUnregister, register_gtm.c:288
+1:139674332944128:2015-08-21 23:36:28.470 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:139674324551424:2015-08-21 23:36:28.470 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:139674316158720:2015-08-21 23:36:29.645 EDT -ERROR:  Failed to Unregister node
+LOCATION:  ProcessPGXCNodeUnregister, register_gtm.c:288
+1:139674299373312:2015-08-21 23:36:29.647 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:139674307766016:2015-08-21 23:36:29.647 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:139673745749760:2015-08-21 23:36:30.821 EDT -ERROR:  Failed to Unregister node
+LOCATION:  ProcessPGXCNodeUnregister, register_gtm.c:288
+1:139673737357056:2015-08-21 23:36:30.825 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:139673728964352:2015-08-21 23:36:30.825 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:139673720571648:2015-08-21 23:36:32.094 EDT -ERROR:  Failed to Unregister node
+LOCATION:  ProcessPGXCNodeUnregister, register_gtm.c:288
+1:139673712178944:2015-08-21 23:36:32.097 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:139673703786240:2015-08-21 23:36:32.097 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:139673695393536:2015-08-21 23:36:33.272 EDT -ERROR:  Failed to Unregister node
+LOCATION:  ProcessPGXCNodeUnregister, register_gtm.c:288
+1:139673208878848:2015-08-21 23:36:33.274 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:139673074661120:2015-08-21 23:36:33.274 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:139673200486144:2015-08-21 23:36:34.448 EDT -ERROR:  Failed to Unregister node
+LOCATION:  ProcessPGXCNodeUnregister, register_gtm.c:288
+1:139673192093440:2015-08-21 23:36:34.450 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:139673183700736:2015-08-21 23:36:34.450 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:139673175308032:2015-08-21 23:36:35.623 EDT -ERROR:  Failed to Unregister node
+LOCATION:  ProcessPGXCNodeUnregister, register_gtm.c:288
+1:139673166915328:2015-08-21 23:36:35.625 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:139673158522624:2015-08-21 23:36:35.625 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:139674443999040:2015-08-21 23:36:36.628 EDT -LOG:  GTM shutting down.
+LOCATION:  ServerLoop, main.c:884
+1:139674443999040:2015-08-21 23:36:36.628 EDT -LOG:  Saving transaction info - next_gxid: 11465
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+Received signal 2
