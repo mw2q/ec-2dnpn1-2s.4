@@ -13,5 +13,7 @@ load_parameters: -c shared_buffers=8GB -c maintenance_work_mem=8GB -c log_checkp
 power_parameters: -c shared_buffers=8GB -c work_mem=512MB -c default_statistics_target=1000 -c log_checkpoints=on -c log_line_prefix='%t [%p]: [%l-1] user=%u,db=%d,app=%a,client=%h ' -c log_lock_waits=on -c log_temp_files=0 -c effective_cache_size=20GB -c max_connections=1000 -c shared_queue_size=8192 -c max_prepared_transactions=100 -c statement_timeout=2000s 
 throughput_parameters: -c shared_buffers=8GB -c work_mem=512MB -c default_statistics_target=1000 -c log_checkpoints=on -c log_line_prefix='%t [%p]: [%l-1] user=%u,db=%d,app=%a,client=%h ' -c log_lock_waits=on -c log_temp_files=0 -c effective_cache_size=20GB -c max_prepared_transactions=100  -c max_connections=1000 -c shared_queue_size=8192 -c statement_timeout=1000s
 shmmax: 4294967295
-dbms: pgsql
+dbms: pgxl
 datanodes: 8
+mpp: yes
+hostnames: pgxl pgxl1 pgxl2 pgxl3 pgxl4 pgxl5 pgxl6 pgxl7 pgxl8
